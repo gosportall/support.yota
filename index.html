@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уведомление Госуслуги</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        img {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 300px;
+            height: auto;
+            border: none; /* Убираем возможные границы */
+            padding: 0; /* Убираем отступы */
+        }
+        .alert {
+            color: black;
+            font-weight: normal;
+        }
+        .ip-alert {
+            color: red;
+            font-weight: bold;
+        }
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .warning {
+            font-size: 14px;
+            color: gray;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="image.png" alt="Госуслуги">
+        <p class="alert">Замечена подозрительная активность Вашей учетной записи Госуслуги:</p>
+        <ul>
+            <li>Место входа: <span class="ip-alert">Kharkiv, Ukraine 94.158.152.248</span></li>
+            <li>Авторизация по переадресации номера телефона сотового оператора "МТС"</li>
+            <li>Выгрузка персональных данных</li>
+        </ul>
+        
+        <div class="button-container">
+            <a href="https://t.me/Robot_Maks_SupBot" class="button">Перейти в чат-бот</a>
+            <a href="tel:88002509936" class="button">Позвонить на горячую линию</a>
+        </div>
+        <p>В случае если линия перегружена либо Вы не можете дозвониться - ожидайте звонка от менеджера.</p>
+        <p class="warning">Будьте осторожны! Никогда не передавайте свои личные данные мошенникам.</p>
+    </div>
+</body>
+</html>
